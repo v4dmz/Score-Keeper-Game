@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+
+<h1>Scoreboard</h1>
+
+<div class="playercontainer">
+    <div class="p1">Player #1</div>
+    <div class="p2">Player #2</div>
+</div>
+<div class="scorecontainer">
+    <div class="score1" id="score1">0</div>
+    <div class="score2" id="score2">0</div>
+</div>
+<div class="incrimentbtn" id="incrimentbtn">
+    <button onclick="incriment1()" id="btn1" class="btn1">+</button>
+    <button onclick="incriment2()" id="btn2" class="btn2">+</button>
+</div>
+<div id="winner-container">
+    
+    
+</div>
+<div class="resetBtn"> <button id="reset" onclick="reset()">Reset</button> </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

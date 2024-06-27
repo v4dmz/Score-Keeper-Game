@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(115, 200, 233);
+}
+/* .container{
+    background-color: rgb(242, 243, 169);
+    height: 100%;
+} */
+h1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.playercontainer {
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    background-color: white;
+    font-weight: 900;
+    padding: 17px 29px;
+    border-radius: 5px;
+    margin-right: 149px;            
+}
+.p2{
+    background-color: white;
+    font-weight: 900;
+    padding: 17px 29px;
+    border-radius: 5px;
+}
+.scorecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score1{
+    background-color: white;
+    font-weight: 900;
+    font-size: xx-large;
+     border-radius: 5px;
+    width: 84px;
+    padding: 40px 61px;
+    margin-right: 145px;
+    margin-left: 258px;
+    
+}
+.score2{
+    position: relative;
+    left: 6px;
+    background-color: white;
+    font-weight: 900;
+      width: 84px;
+    font-size: xx-large;
+
+    padding: 40px 61px;
+    margin-right: 265px;
+    border-radius: 5px;
+    
+}
+.incrimentbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.btn1{
+    background-color: rgb(216, 84, 137);
+    font-weight: 900;
+     border-radius: 5px;
+    width: 84px;
+    padding: 12px 61px;
+    margin-right: 73px;
+    margin-left: 74px;
+    cursor: pointer;
+    border: none;
+}
+.btn2{
+    background-color: rgb(211, 77, 142);
+    font-weight: 900;
+     border-radius: 5px;
+    width: 84px;
+    padding: 12px 61px;
+    margin-right: 73px;
+    margin-left: 74px;
+    cursor: pointer;
+    border: none;
+}
+
+#winner-container {
+    text-align: center;
+}
+.resetBtn{
+    display: flex;
+    justify-content: center;
+}
+
+#reset{
+    width: 103px;
+    height: 30px;
+    background: rgb(219, 61, 156);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+}
